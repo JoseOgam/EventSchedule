@@ -1,13 +1,11 @@
+import Logo from '../../img/logo.png'
 const NavBar = () => {
     return (
         <div>
            <header id="header" className="d-flex align-items-center ">
-    <div className="container-fluid container-xxl d-flex align-items-center">
-
-      <div id="logo" className="me-auto">
-       
-        <h1><a to="index.html">The<span>Event</span></a></h1>
-        <a to="index.html" className="scrollto"><img src="assets/img/logo.png" alt="" title=""/></a>
+        <div className="container-fluid container-xxl d-flex align-items-center">
+      <div id="logo" class="me-auto">
+        <a  className="scrollto"><img src={Logo} alt="" title=""/></a>
       </div>
 
       <nav id="navbar" className="navbar order-last order-lg-0">
