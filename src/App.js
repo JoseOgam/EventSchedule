@@ -1,5 +1,6 @@
 import HomePage from "./components/homepage/HomePage";
 import NavBar from "./components/navBar/NavBar";
+import About from "./components/about/About"
 import {
   BrowserRouter as Router,
   // Switch,
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       <Router>
          <NavBar />
-         <HomePage />
+        <HomePage />
+        <About />
      </Router>
     </div>
   );
