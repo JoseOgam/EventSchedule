@@ -7,6 +7,7 @@ import {
   // Route,
   // Link
 } from "react-router-dom";
+import Speakers from "./components/speakers/Speakers";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
          <NavBar />
         <HomePage />
         <About />
+        <Speakers />
      </Router>
     </div>
   );
