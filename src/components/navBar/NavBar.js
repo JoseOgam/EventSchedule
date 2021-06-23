@@ -1,45 +1,48 @@
 import Logo from '../../img/logo.png'
+import {
+  Link
+} from "react-router-dom";
 const NavBar = () => {
     return (
         <div>
            <header id="header" className="d-flex align-items-center ">
         <div className="container-fluid container-xxl d-flex align-items-center">
       <div id="logo" class="me-auto">
-        <a  className="scrollto"><img src={Logo} alt="" title=""/></a>
+        <Link  className="scrollto"><img src={Logo} alt="" title=""/></Link>
       </div>
 
       <nav id="navbar" className="navbar order-last order-lg-0">
         <ul>
-          <li><a className="nav-link scrollto active" to="#hero">Home</a></li>
-          <li><a className="nav-link scrollto" to="#about">About</a></li>
-          <li><a className="nav-link scrollto" to="#speakers">Speakers</a></li>
-          <li><a className="nav-link scrollto" to="#schedule">Schedule</a></li>
-          <li><a className="nav-link scrollto" to="#venue">Venue</a></li>
-          <li><a className="nav-link scrollto" to="#hotels">Hotels</a></li>
-          <li><a className="nav-link scrollto" to="#gallery">Gallery</a></li>
-          <li><a className="nav-link scrollto" to="#supporters">Sponsors</a></li>
-          <li className="dropdown"><a to="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
+          <li><Link className="nav-link scrollto active" to="#hero">Home</Link></li>
+          <li><Link className="nav-link scrollto" to="#about">About</Link></li>
+          <li><Link className="nav-link scrollto" to="#speakers">Speakers</Link></li>
+          <li><Link className="nav-link scrollto" to="#schedule">Schedule</Link></li>
+          <li><Link className="nav-link scrollto" to="#venue">Venue</Link></li>
+          <li><Link className="nav-link scrollto" to="#hotels">Hotels</Link></li>
+          <li><Link className="nav-link scrollto" to="#gallery">Gallery</Link></li>
+          <li><Link className="nav-link scrollto" to="#supporters">Sponsors</Link></li>
+          <li className="dropdown"><Link to="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></Link>
           <ul>
-            <li><a to="#">Drop Down 1</a></li>
-            <li className="dropdown"><a to="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></a>
+            <li><Link to="#">Drop Down 1</Link></li>
+            <li className="dropdown"><Link to="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></Link>
               <ul>
-                <li><a to="#">Deep Drop Down 1</a></li>
-                <li><a to="#">Deep Drop Down 2</a></li>
-                <li><a to="#">Deep Drop Down 3</a></li>
-                <li><a to="#">Deep Drop Down 4</a></li>
-                <li><a to="#">Deep Drop Down 5</a></li>
+                <li><Link to="#">Deep Drop Down 1</Link></li>
+                <li><Link to="#">Deep Drop Down 2</Link></li>
+                <li><Link to="#">Deep Drop Down 3</Link></li>
+                <li><Link to="#">Deep Drop Down 4</Link></li>
+                <li><Link to="#">Deep Drop Down 5</Link></li>
               </ul>
             </li>
-            <li><a to="#">Drop Down 2</a></li>
-            <li><a to="#">Drop Down 3</a></li>
-            <li><a to="#">Drop Down 4</a></li>
+            <li><Link to="#">Drop Down 2</Link></li>
+            <li><Link to="#">Drop Down 3</Link></li>
+            <li><Link to="#">Drop Down 4</Link></li>
           </ul>
         </li> 
-          <li><a className="nav-link scrollto" to="#contact">Contact</a></li>
+          <li><Link className="nav-link scrollto" to="#contact">Contact</Link></li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle"></i>
       </nav>
-      <a className="buy-tickets scrollto" to="#buy-tickets">Buy Tickets</a>
+      <Link className="buy-tickets scrollto" to="#buy-tickets">Buy Tickets</Link>
 
     </div>
   </header>
