@@ -31,7 +31,7 @@ const Schedule = () => {
 
         <div className="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
-          <div role="tabpanel" className="col-lg-9 tab-pane fade show active" id="day-1">
+          <div role="tabpanel" className="col-lg-9 tab-pane fade show active" id="#day-1">
 
             <div className="row schedule-item">
               <div className="col-md-2"><time>09:30 AM</time></div>
@@ -109,7 +109,7 @@ const Schedule = () => {
 
           </div>
        
-          <div role="tabpanel" className="col-lg-9  tab-pane fade" id="day-2">
+          <div role="tabpanel" className="col-lg-9  tab-pane fade" id="#day-2">
 
             <div className="row schedule-item">
               <div className="col-md-2"><time>10:00 AM</time></div>
