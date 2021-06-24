@@ -8,6 +8,7 @@ import {
   // Link
 } from "react-router-dom";
 import Speakers from "./components/speakers/Speakers";
+import Schedule from "./components/createSchedule/Schedule";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <HomePage />
         <About />
         <Speakers />
+        <Schedule />
      </Router>
     </div>
   );
