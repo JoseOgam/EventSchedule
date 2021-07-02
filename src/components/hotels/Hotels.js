@@ -24,7 +24,7 @@ const Hotels = () => {
               <div className="hotel-img">
                 <img src={hotel1} alt="Hotel 1" className="img-fluid"/>
               </div>
-              <h3><Link to="#">Hotel 1</Link></h3>
+              <h3><Link to="/#">Hotel 1</Link></h3>
               <div className="stars">
                 <i className="bi bi-star-fill"></i>
                 <i className="bi bi-star-fill"></i>
@@ -41,7 +41,7 @@ const Hotels = () => {
               <div className="hotel-img">
                 <img src={hotel2} alt="Hotel 2" className="img-fluid"/>
               </div>
-              <h3><Link to="#">Hotel 2</Link></h3>
+              <h3><Link to="/#">Hotel 2</Link></h3>
               <div className="stars">
                 <i className="bi bi-star-fill"></i>
                 <i className="bi bi-star-fill"></i>
@@ -58,7 +58,7 @@ const Hotels = () => {
               <div className="hotel-img">
                 <img src={hotel3} alt="Hotel 3" className="img-fluid"/>
               </div>
-              <h3><Link to="#">Hotel 3</Link></h3>
+              <h3><Link to="/#">Hotel 3</Link></h3>
               <div className="stars">
                 <i className="bi bi-star-fill"></i>
                 <i className="bi bi-star-fill"></i>
