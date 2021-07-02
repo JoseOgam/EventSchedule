@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Speakers from "./components/speakers/Speakers";
 import Schedule from "./components/createSchedule/Schedule";
+import EventVenue from "./components/eventVenue/EventVenue";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Speakers />
         <Schedule />
+        <EventVenue />
      </Router>
     </div>
   );
