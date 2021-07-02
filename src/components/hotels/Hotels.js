@@ -1,6 +1,12 @@
 import hotel1 from '../../img/hotels/1.jpg'
 import hotel2 from '../../img/hotels/2.jpg'
 import hotel3 from '../../img/hotels/3.jpg'
+import {
+//   BrowserRouter as Router,
+//   // Switch,
+//   // Route,
+  Link
+} from "react-router-dom";
 const Hotels = () => {
     return (<div>
         <section id="hotels" className="section-with-bg">
@@ -18,7 +24,7 @@ const Hotels = () => {
               <div className="hotel-img">
                 <img src={hotel1} alt="Hotel 1" className="img-fluid"/>
               </div>
-              <h3><a href="#">Hotel 1</a></h3>
+              <h3><Link to="#">Hotel 1</Link></h3>
               <div className="stars">
                 <i className="bi bi-star-fill"></i>
                 <i className="bi bi-star-fill"></i>
@@ -35,7 +41,7 @@ const Hotels = () => {
               <div className="hotel-img">
                 <img src={hotel2} alt="Hotel 2" className="img-fluid"/>
               </div>
-              <h3><a href="#">Hotel 2</a></h3>
+              <h3><Link to="#">Hotel 2</Link></h3>
               <div className="stars">
                 <i className="bi bi-star-fill"></i>
                 <i className="bi bi-star-fill"></i>
@@ -52,7 +58,7 @@ const Hotels = () => {
               <div className="hotel-img">
                 <img src={hotel3} alt="Hotel 3" className="img-fluid"/>
               </div>
-              <h3><a href="#">Hotel 3</a></h3>
+              <h3><Link to="#">Hotel 3</Link></h3>
               <div className="stars">
                 <i className="bi bi-star-fill"></i>
                 <i className="bi bi-star-fill"></i>
