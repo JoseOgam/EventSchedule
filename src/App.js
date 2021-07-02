@@ -10,6 +10,8 @@ import {
 import Speakers from "./components/speakers/Speakers";
 import Schedule from "./components/createSchedule/Schedule";
 import EventVenue from "./components/eventVenue/EventVenue";
+import Hotels from "./components/hotels/Hotels";
+import Gallery from "./components/gallery/Gallery";
 
 function App() {
   return (
@@ -21,6 +23,10 @@ function App() {
         <Speakers />
         <Schedule />
         <EventVenue />
+        <Hotels />
+        <Gallery />
+        
+        
      </Router>
     </div>
   );
